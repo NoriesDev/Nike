@@ -7,14 +7,13 @@ body {
 /* nav  */
 nav {
     display: flex;
-    justify-content: center;
-    align-items: space-around;
-    background-color: white;
-    text-decoration: none;
-
-}
-.top-bar {
-    align-items: flex-end;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 
 /* header  */
