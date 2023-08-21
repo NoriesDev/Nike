@@ -1,9 +1,37 @@
 /* nav  */
 
 /* header  */
-p {
-    color: blue;
+
+
+h2 {
+    color: black;
 }
+.trends-parent {
+    max-height: 400px;
+    overflow: hidden;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 0;
+    margin-right: 0;
+    
+ }
+ .trends-parent figure{
+     min-height: 80%;
+
+ }
+ .trends-parent figure img {
+    min-height: 90%;
+    max-width: 400px;
+ }
+ 
+
+ 
+ 
+
+ 
+
 /* section  */
 
 /* footer  */
