@@ -24,7 +24,7 @@ display: space;
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
+    
     display: block;
 }
 
@@ -39,8 +39,7 @@ display: space;
 .drop-container {
     position: relative;
     display: inline-block;
-  }
-
+}
 
 .drop {
     display: none;
@@ -51,14 +50,14 @@ display: space;
     z-index: 1;
 }
 .drop a:hover {background-color: #e34b4b;}
-
+.drop-bar:hover .drop {display: block;}
+.top-bar:hover .help-dropdown {background-color: #3e8e41;}
 
 .topbar2 {
     width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
     display: block;
 }
 /* header  */
