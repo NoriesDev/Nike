@@ -33,14 +33,21 @@
     font-size: 12px;
 }
 
+.footer-bottom-container {
+    min-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer-bottom1 {
-    width: 100%;
+    max-width: 30%;
     padding: 10px;
     box-sizing: border-box;
 }
 
 .footer-bottom2 {
-    width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
