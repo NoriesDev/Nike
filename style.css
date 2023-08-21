@@ -7,7 +7,7 @@ h2 {
     color: black;
 }
 .trends-parent {
-    max-height: 400px;
+    max-height: 900px;
     overflow: hidden;
     display: flex; 
     flex-flow: row nowrap;
