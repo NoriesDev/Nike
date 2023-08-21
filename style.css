@@ -13,10 +13,10 @@ nav {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 25px;
 }
 .nav-container1 {
-display: space;
+display: flex;
 }
 
 .top-bar {
@@ -47,9 +47,9 @@ display: space;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.drop a:hover {background-color: #e34b4b;}
+.drop  a:hover {background-color: #e34b4b;}
 .drop-bar:hover .drop {display: block;}
-.top-bar:hover .help-dropdown {background-color: #3e8e41;}
+.top-bar:hover .help-dropdown .drop-a {background-color: #3e8e41;}
 
 .topbar2 {
     width: 100%;
@@ -58,9 +58,7 @@ display: space;
     border: 0;
     display: inline;
 }
-.drop-a {
-    display: block;
-}
+
 /* header  */
 
 /* section  */
