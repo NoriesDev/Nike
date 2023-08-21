@@ -1,4 +1,4 @@
-body {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -21,15 +21,47 @@ nav {
 
 /* section  */
 section {
-    padding=10em;
-    margin=0;
-    box-sizing:border-box;
-    background-color:cornflowerblue;
+    border:dashed red 2px;
 }
 
-section h3{
+section .gallery{
+    padding:1em 4em 0;
+}
+
+section .gallery h3{
     font-family:sans-serif;
-    font-size:2em;
+    font-weight:lighter;
+    font-size:1.5em;
+    margin-bottom:0.5em;
+}
+
+section .deck {
+    display:flex;
+    gap:1em;
+}
+
+section .card {
+    display:inline-block;
+    max-width:300px;
+    border:dashed greenyellow 2px;
+
+}
+
+section .card div{
+    
+}
+
+section .card img {
+    height:300px;
+    width:300px;
+    object-fit: cover;
+
+}
+
+section .card p {
+    font-family:sans-serif;
+    color:rgb(88, 88, 88);
+    margin:1em 0 0.2em;
 }
 
 /* footer  */
