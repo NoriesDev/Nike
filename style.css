@@ -14,16 +14,17 @@ nav {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 25px;
+    
 }
 .nav-container1 {
 display: flex;
+border: solid black 1px
 }
 
 .top-bar {
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 .help-dropdown {
@@ -43,13 +44,13 @@ display: flex;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .drop  a:hover {background-color: #e34b4b;}
 .drop-bar:hover .drop {display: block;}
-.top-bar:hover .help-dropdown .drop-a {background-color: #3e8e41;}
+.top-bar:hover .help-dropdown {background-color: #3e8e41;}
 
 .topbar2 {
     width: 100%;
