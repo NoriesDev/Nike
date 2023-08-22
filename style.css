@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -14,16 +15,17 @@ nav {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 25px;
+    
 }
 .nav-container1 {
 display: flex;
+border: solid black 1px
 }
 
 .top-bar {
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 .help-dropdown {
@@ -43,13 +45,13 @@ display: flex;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .drop  a:hover {background-color: #e34b4b;}
 .drop-bar:hover .drop {display: block;}
-.top-bar:hover .help-dropdown .drop-a {background-color: #3e8e41;}
+.top-bar:hover .help-dropdown {background-color: #3e8e41;}
 
 .topbar2 {
     width: 100%;
@@ -136,3 +138,72 @@ section .card p {
 }
 
 /* footer  */
+=======
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-subsection {
+    flex: 1;
+    min-width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer-subsection h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-subsection p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.footer-bottom-container {
+    min-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom1 {
+    max-width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer-bottom2 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .footer-subsection {
+        flex-basis: 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-subsection {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+>>>>>>> footer
